@@ -3,8 +3,6 @@ package org.example;
 public class Player {
     protected int id;
     protected String name;
-
-
     protected int strength;
 
     public Player(int id, String name, int strength) {
@@ -20,5 +18,4 @@ public class Player {
     public int getStrength() {
         return strength;
     }
-
 }
